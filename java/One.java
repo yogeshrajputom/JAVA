@@ -1,4 +1,4 @@
-class a {
+/*class a {
     public static void main(String args[]) {
         System.out.println("Hello g");
         System.out.println("Yoge");
@@ -8,4 +8,5 @@ class a {
         int sume = a + b;
         System.out.println(sume);
     }
-}
+}*/
+
