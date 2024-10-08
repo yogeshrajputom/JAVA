@@ -16,7 +16,24 @@ public class array {
         System.out.println(arg[2]);
         System.out.println(arg[3]);
         System.out.println(arg[4]);
-        
+        System.out.println(arg.length);
+
+             // use the for loop print array
+
+        int marks[]={54,62,58,67,52};
+        System.out.println(marks[0]);
+        System.out.println(marks[3]);
+        for(int i=0; i<=marks.length;i++){
+        System.out.println(marks[i]);
+        }
+
+        //For each loop 
+
+        for(int mark:marks){
+            System.out.println(mark);
+        }
+
+
     }
     
 }
