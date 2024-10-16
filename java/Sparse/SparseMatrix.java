@@ -25,8 +25,7 @@ public class SparseMatrix {
                 } else {
                     nz++;
                 }
-            }else(nz>arr.length)
-                Systme.out.println("Note Sparse Matrix");
+            }
 
     }
 }
