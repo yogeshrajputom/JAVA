@@ -7,11 +7,23 @@ public class newr {
         System.out.println("Enter two Variable values:");
         Scanner sc = new Scanner(System.in);
         int a=sc.nextInt(), b=sc.nextInt();
+        // for(int i=1;i<=a;i++){
+        //     for(int j=1;j<=b;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println(" ");
+        // }
+
         for(int i=1;i<=a;i++){
             for(int j=1;j<=b;j++){
-                System.out.print("*");
+                if(i==1||i==a||j==1||j==b){
+                    System.out.pritln(" * ");
+
+                }else{
+                    System.out.println(" ");
+                }
+                
             }
-            System.out.println(" ");
         }
 
 
